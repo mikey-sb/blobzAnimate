@@ -1,0 +1,109 @@
+body {
+    font-family: Palatino;
+  
+  }
+  
+  a, p, li, h1 {
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+  h1 {
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding-left: 40px;  
+    padding-top: 12px;
+  
+  
+    
+  }
+  
+  .form-item > label, .form-item > input, .form-item > select{
+    opacity: 0.7;
+    transition: opacity 1s ease; 
+    color: goldenrod;  
+  }
+  .form-item > label:hover, .form-item > input:hover, .form-item > select:hover{
+    opacity: 1;
+    transition: opacity 1s ease;
+    width: 200px;
+    height: 30px;
+    color: goldenrod;  
+  }
+  
+  .form-item > label, .form-item > input{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .form-item {
+    padding: 10px;
+  }
+  
+  
+  
+  #reading-list{
+      display: flex;
+      flex-flow: row wrap;
+  }
+  
+  #reading-list > ul{
+    border-style: none;
+    border-radius: 15px;
+    background-color: goldenrod; 
+    
+    width: 200px;
+    height: 100px;
+    list-style: none;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 0px;
+    transition: width 3s ease, height 3s ease, border-radius 3s ease;
+    margin-top: -17px;
+  
+  }
+  
+  #reading-list > ul:hover{
+    width: 250px;
+    height: 120px;
+  
+   
+    border-radius: 50px;
+  
+  }
+  
+  .title {
+    grid-column: 1/2;
+    grid-row: 1;
+    font-size: 26px;
+    margin-left: 30%;
+    color: white;
+  }
+  
+  .author{
+    grid-column: 1;
+    grid-row: 2;
+    color: white;
+  }
+    
+  .cat{
+    grid-column: 2;
+    grid-row: 2;
+    color: white;
+  }
+    
+  
+  #titleDiv {
+    
+    border-radius: 50px;
+    border-style:none;
+    background-color: goldenrod;
+    transition: all 10s ease;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 50px;
+  }
+  
+  
+  
